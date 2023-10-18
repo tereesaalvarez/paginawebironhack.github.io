@@ -1,0 +1,12 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2% 5%; 
+}
+
+.logo img{
+    width: 10h;
+    height: 10vh;
+}

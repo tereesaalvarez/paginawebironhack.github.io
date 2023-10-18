@@ -13,3 +13,17 @@ header nav{
 header .logo img{
     width: 120px;
 }
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 1rem;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}

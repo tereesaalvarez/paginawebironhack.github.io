@@ -77,6 +77,34 @@
         text-align: center;
         padding: 20px;
     }
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* Estilos para cada producto */
+    .producto {
+        flex: 0 0 calc(50% - 20px); 
+        background-color: #ad9393;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+
+    .producto img {
+        max-width: 90%;
+        height: auto;
+    }
+
+
+    .producto p {
+        margin: 5px 0;
+    }
+
 }
 
 h1{
@@ -100,7 +128,6 @@ p{
     margin: 1rem 0;
 }
 
-/* Estilos para el formulario de inicio de sesión */
 .login {
     max-width: 400px;
     margin: 0 auto;

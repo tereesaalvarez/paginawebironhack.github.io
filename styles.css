@@ -1,29 +1,106 @@
-header{
-    background-color: #333;
-    color: #fff;
-}
+@media (max-width: 750px){
+    *{
+        margin:0;
+    }
+    header{
+        background-color: #333;
+        color: #fff;
+    }
+    
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    header .logo img{
+        width: 120px;
+    }
+    
+    header nav ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    header nav ul li{
+        margin-left: 1rem;
+    }
+    
+    header nav ul li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .Imagenes {
+        display: flex; /* Muestra las imágenes en una línea horizontal */
+        justify-content: space-between; /* Distribuye las imágenes de manera uniforme */
+        align-items: center; /* Centra verticalmente las imágenes */
+    }
+    
+    .Imagenes img {
+        max-width: 35%; /* Las imágenes se ajustarán al tamaño del contenedor */
+        height: 170px; /* Mantiene la proporción de aspecto de las imágenes */
+    }
+    
+    .categorias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    /* Estilos para cada categoría */
+    .categoria {
+        flex: 0 0 calc(33.33% - 20px); /* Para mostrar 3 columnas por fila y espacio entre ellas */
+        background-color: #f4f4f4;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    /* Estilos para las imágenes de las categorías */
+    .categoria img {
+        max-width: 10%;
+        height: auto;
+    }
+    
+    /* Estilos para los títulos de las categorías */
+    .categoria p {
+        font-weight: bold;
+        background-color: #333;
+        color: white;
+        padding: 5px 0;
+        margin: 10px 0;
+        border-radius: 5px;
+    }
+     flex-direction: column; /* Apila las categorías en pantallas más pequeñas */
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
 
-header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
 }
-
-header .logo img{
-    width: 120px;
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
 }
-
-header nav ul{
-    display: flex;
-    list-style: none;
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
 }
-
-header nav ul li{
-    margin-left: 1rem;
+h3{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0;
 }
-
-header nav ul li a{
-    color: #fff;
-    text-decoration: none;
+p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 0;
 }

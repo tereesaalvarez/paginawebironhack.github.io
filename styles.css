@@ -74,16 +74,14 @@
         margin: 10px 0;
         border-radius: 5px;
     }
-     flex-direction: column; /* Apila las categorías en pantallas más pequeñas */
-    }
     footer {
         background-color: #333;
         color: white;
         text-align: center;
         padding: 20px;
     }
-
 }
+
 h1{
     font-size: 2rem;
     text-align: center;
